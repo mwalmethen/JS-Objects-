@@ -21,7 +21,7 @@ const book = {
     genre: "Programming"
 };
 console.log(book) // calling the object in the terminal 
-console.log(book.title, book.publishedYear); // calling object title and year of publish 
+console.log(`${book.title} - ${book["publishedYear"]}`); // calling object title and year of publish 
 
 
 /*****************************************************************
@@ -76,7 +76,7 @@ book.reviews = {  // creating an new object inside an object called review
     reviewer: "Book Critic", // storing the reviewer 
     comment: "A comprehensive guide to JavaScript" // storing the comment by the reviewer 
 };
-console.log(book); // calling object with new changes 
+console.log(book); // calling object with new changes
 
 
 
