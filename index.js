@@ -72,10 +72,10 @@ book.author = ["David Flanagan", "Another Author"]; // creating an array with au
 console.log(book); // calling object with new author names
 
 // Task 7 // 
-book.reviews = {  // creating an new object inside an object called review 
+book.reviews = [{  // creating an new object inside an object called review 
     reviewer: "Book Critic", // storing the reviewer 
     comment: "A comprehensive guide to JavaScript" // storing the comment by the reviewer 
-};
+}];
 console.log(book); // calling object with new changes
 
 
